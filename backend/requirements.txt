@@ -1,0 +1,12 @@
+fastapi[standard]
+python-telegram-bot
+python-dotenv
+sqlalchemy
+aiosqlite
+httpx
+schedule
+litellm
+greenlet
+newspaper3k
+nltk
+markdown
