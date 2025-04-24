@@ -29,7 +29,7 @@ async def lifespan(app: FastAPI):
     await init_db()
     await bot.set_webhook(f"{WEBHOOK_URL}/webhook")
     # Start the scheduler
-    # start_scheduler()
+    # start_scheduler() # Run it only once at application startup
     logger.info("Application started")
     
     try:
