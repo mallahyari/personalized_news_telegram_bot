@@ -13,7 +13,7 @@ An educational project that demonstrates how to build a Telegram bot that delive
 ## Project Structure
 
 ```
-project_directory/
+backend/
 ├── app/
 │   ├── __init__.py
 │   ├── main.py               # FastAPI application
